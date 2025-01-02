@@ -1,0 +1,17 @@
+[package]
+name = "jianzhioffer"
+version = "0.1.0"
+edition = "2021"
+
+
+[[bin]]
+name = "checkInclusion"
+path = "chapter03/_01_check_inclusion.rs"
+
+[[bin]]
+name = "intdivide"
+path = "chapter01/_01_int_divide.rs"
+
+
+
+[dependencies]
