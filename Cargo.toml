@@ -12,6 +12,8 @@ path = "chapter03/_01_check_inclusion.rs"
 name = "intdivide"
 path = "chapter01/_01_int_divide.rs"
 
-
+[[bin]]
+name = "_02_binary_add"
+path = "chapter01/_02_binary_add.rs"
 
 [dependencies]
