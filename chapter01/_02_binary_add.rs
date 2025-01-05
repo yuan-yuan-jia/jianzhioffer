@@ -30,20 +30,10 @@ impl Question {
                     temp_res.push(sum.to_string());
 
                 },
-                (Some(c11), None) =>  {
-                    let i_c1 = c11 as u8 - '0' as u8;
-                    let mut sum = i_c1  + carry;
-                    if sum >= 2 {
-                        sum -= 2;
-                        carry = 1;
-                    }else {
-                        carry = 0;
-                    }   
-                    temp_res.push(sum.to_string());
-                },
-                (None, Some(c22)) => {
-                    let i_c2 = c22 as u8 - '0' as u8;
-                    let mut sum = i_c2  + carry;
+                (Some(_), None) | (None, Some(_)) =>  {
+                    let i_c = c1.clone().or(c2.clone()).unwrap();
+                    let i_c = i_c as u8 - '0' as u8;
+                    let mut sum = i_c  + carry;
                     if sum >= 2 {
                         sum -= 2;
                         carry = 1;
