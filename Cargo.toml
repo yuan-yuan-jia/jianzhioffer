@@ -20,4 +20,8 @@ path = "chapter01/_01_int_divide.rs"
 name = "_02_binary_add"
 path = "chapter01/_02_binary_add.rs"
 
+[[bin]]
+name = "count_bits"
+path = "chapter01/_03_count_bits.rs"
+
 [dependencies]
