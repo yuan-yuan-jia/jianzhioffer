@@ -5,8 +5,12 @@ edition = "2021"
 
 
 [[bin]]
-name = "checkInclusion"
-path = "chapter03/_01_check_inclusion.rs"
+name = "check_inclusion"
+path = "chapter03/_14_check_inclusion.rs"
+
+[[bin]]
+name = "length_of_longest_substring"
+path = "chapter03/_16_length_of_longest_substring.rs"
 
 [[bin]]
 name = "intdivide"
