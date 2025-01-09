@@ -24,4 +24,12 @@ path = "chapter01/_02_binary_add.rs"
 name = "count_bits"
 path = "chapter01/_03_count_bits.rs"
 
+[[bin]]
+name = "max_product"
+path = "chapter01/_05_max_product.rs"
+
+[[bin]]
+name = "single_numbe"
+path = "chapter01/_04_single_numbe.rs"
+
 [dependencies]
