@@ -32,4 +32,8 @@ path = "chapter01/_05_max_product.rs"
 name = "single_numbe"
 path = "chapter01/_04_single_numbe.rs"
 
+[[bin]]
+name = "valid_palindrome"
+path = "chapter03/_19_valid_palindrome.rs"
+
 [dependencies]
