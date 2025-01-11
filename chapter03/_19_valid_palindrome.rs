@@ -7,10 +7,9 @@
 
 
  fn is_palindrome(s: &String, mut i: i32, mut e: i32) -> bool{
-    let mut chars = s.chars();
     while i <= e {
-        let i_char = chars.nth(i as usize).clone().unwrap();
-        let e_char = chars.nth(e as usize).clone().unwrap();
+        let i_char = s.get((i as usize)..(i + 1) as usize).unwrap();
+        let e_char = s.get((e as usize)..(e + 1) as usize).unwrap();
         if i_char != e_char {
             break;
         } 
