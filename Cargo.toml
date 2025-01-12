@@ -36,4 +36,8 @@ path = "chapter01/_04_single_numbe.rs"
 name = "valid_palindrome"
 path = "chapter03/_19_valid_palindrome.rs"
 
+[[bin]]
+name = "remove_nth_from_end"
+path = "chapter04/_21_remove_nth_from_end.rs"
+
 [dependencies]
