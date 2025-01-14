@@ -40,4 +40,8 @@ path = "chapter03/_19_valid_palindrome.rs"
 name = "remove_nth_from_end"
 path = "chapter04/_21_remove_nth_from_end.rs"
 
+[[bin]]
+name = "two_sum"
+path = "chapter02/_6_two_sum.rs"
+
 [dependencies]
