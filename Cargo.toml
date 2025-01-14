@@ -44,4 +44,12 @@ path = "chapter04/_21_remove_nth_from_end.rs"
 name = "two_sum"
 path = "chapter02/_6_two_sum.rs"
 
+[[bin]]
+name = "intersection_node"
+path = "chapter04/_23_get_intersection_node_.rs"
+
+[[bin]]
+name = "reverse_list"
+path = "chapter04/_24_reverse_list.rs"
+
 [dependencies]
