@@ -52,4 +52,8 @@ path = "chapter04/_23_get_intersection_node_.rs"
 name = "reverse_list"
 path = "chapter04/_24_reverse_list.rs"
 
+[[bin]]
+name = "_25_add_two_numbers"
+path = "chapter04/_25_add_two_numbers.rs"
+
 [dependencies]
