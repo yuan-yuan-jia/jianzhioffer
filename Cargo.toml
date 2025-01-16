@@ -60,4 +60,8 @@ path = "chapter04/_25_add_two_numbers.rs"
 name = "three_sum"
 path = "chapter02/_7_three_sum.rs"
 
+[[bin]]
+name = "min_subarray_len"
+path = "chapter02/_8_min_subarray_len.rs"
+
 [dependencies]
