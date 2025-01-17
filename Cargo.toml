@@ -76,4 +76,8 @@ path = "chapter02/_9_num_subarray_product_less_than_k.rs"
 name = "pivot_index"
 path = "chapter02/_12_pivot_index.rs"
 
+[[bin]]
+name = "_31_lru"
+path = "chapter05/_31_lru.rs"
+
 [dependencies]
