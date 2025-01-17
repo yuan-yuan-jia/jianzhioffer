@@ -64,4 +64,12 @@ path = "chapter02/_7_three_sum.rs"
 name = "min_subarray_len"
 path = "chapter02/_8_min_subarray_len.rs"
 
+[[bin]]
+name = "reorder_list"
+path = "chapter04/_26_reorder_list.rs"
+
+[[bin]]
+name = "num_subarray_product_less_than_k"
+path = "chapter02/_9_num_subarray_product_less_than_k.rs"
+
 [dependencies]
