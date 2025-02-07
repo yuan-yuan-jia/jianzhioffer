@@ -84,4 +84,9 @@ path = "chapter05/_31_lru.rs"
 name = "_36_eval_prn"
 path = "chapter06/_36_eval_prn.rs"
 
+
+[[bin]]
+name = "_37_asteroid_collision"
+path = "chapter06/_37_asteroid_collision.rs"
+
 [dependencies]
