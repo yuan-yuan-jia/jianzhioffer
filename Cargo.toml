@@ -80,4 +80,8 @@ path = "chapter02/_12_pivot_index.rs"
 name = "_31_lru"
 path = "chapter05/_31_lru.rs"
 
+[[bin]]
+name = "_36_eval_prn"
+path = "chapter06/_36_eval_prn.rs"
+
 [dependencies]
