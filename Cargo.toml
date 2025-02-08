@@ -89,4 +89,8 @@ path = "chapter06/_36_eval_prn.rs"
 name = "_37_asteroid_collision"
 path = "chapter06/_37_asteroid_collision.rs"
 
+[[bin]]
+name = "_38_daily_temperatures"
+path = "chapter06/_38_daily_temperatures.rs"
+
 [dependencies]
