@@ -93,4 +93,7 @@ path = "chapter06/_37_asteroid_collision.rs"
 name = "_38_daily_temperatures"
 path = "chapter06/_38_daily_temperatures.rs"
 
+[[bin]]
+name = "_39_largest_rectangle_area"
+path = "chapter06/_39_largest_rectangle_area.rs"
 [dependencies]
