@@ -8,7 +8,7 @@ fn largest_rectangle_area_violent_version(heights: Vec<i32>) -> i32 {
         let mut j = i;
         while j < heights.len() {
             min = min.min(*heights.get(j).unwrap());
-            let mut area = min * (j - i + 1) as i32;
+            let area = min * (j - i + 1) as i32;
             max_area = max_area.max(area);
             j += 1;
         }
@@ -41,7 +41,6 @@ fn helper(heights: &[i32], start: usize, end: usize) -> i32 {
 }
 
 fn largest_rectangle_area_divide_and_conquer_version(heights: Vec<i32>) -> i32 {
-    let mut r = 0;
     helper(heights.as_slice(), 0, heights.len())
 }
 
