@@ -96,8 +96,13 @@ path = "chapter06/_38_daily_temperatures.rs"
 [[bin]]
 name = "_39_largest_rectangle_area"
 path = "chapter06/_39_largest_rectangle_area.rs"
+
 [[bin]]
 name = "_41_moving_average"
 path = "chapter07/_41_moving_average.rs"
+
+[[bin]]
+name = "_47_prune_tree"
+path = "chapter08/_47_prune_tree.rs"
 
 [dependencies]
