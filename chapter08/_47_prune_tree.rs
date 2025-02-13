@@ -64,22 +64,7 @@ fn prune_tree_do(cur: Option<Rc<RefCell<TreeNode>>>) -> Option<Rc<RefCell<TreeNo
 }
 
 fn prune_tree(root: Option<Rc<RefCell<TreeNode>>>) -> Option<Rc<RefCell<TreeNode>>>{
-    if root.is_some() {
-        let left = root.as_ref().unwrap().borrow().left.clone();
-        let right = root.as_ref().unwrap().borrow().right.clone();
-        
-        
-        root.as_ref().unwrap().borrow_mut().left = prune_tree_do(left);
-          
-        root.as_ref().unwrap().borrow_mut().right = prune_tree_do( right);
-        
-        let c=  root.as_ref().unwrap().borrow();
-        if c.left.is_none() && c.right.is_none() && c.val == 0 {
-            return None;
-        }
-        return root.clone();
-    }
-    None
+    prune_tree_do(root)
 }
 
 
