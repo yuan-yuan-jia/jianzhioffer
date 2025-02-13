@@ -105,4 +105,8 @@ path = "chapter07/_41_moving_average.rs"
 name = "_47_prune_tree"
 path = "chapter08/_47_prune_tree.rs"
 
+[[bin]]
+name = "_48_serde_bin_tree"
+path = "chapter08/_48_serde_bin_tree.rs"
+
 [dependencies]
