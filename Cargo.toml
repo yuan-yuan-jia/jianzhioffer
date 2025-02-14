@@ -109,4 +109,8 @@ path = "chapter08/_47_prune_tree.rs"
 name = "_48_serde_bin_tree"
 path = "chapter08/_48_serde_bin_tree.rs"
 
+[[bin]]
+name = "_49_sum_numbers"
+path = "chapter08/_49_sum_numbers.rs"
+
 [dependencies]
