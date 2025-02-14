@@ -116,4 +116,9 @@ path = "chapter08/_49_sum_numbers.rs"
 [[bin]]
 name = "_50_path_sum"
 path = "chapter08/_50_path_sum.rs"
+
+[[bin]]
+name = "_51_path_max_sum"
+path = "chapter08/_51_path_max_sum.rs"
+
 [dependencies]
