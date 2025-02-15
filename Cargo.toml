@@ -121,4 +121,8 @@ path = "chapter08/_50_path_sum.rs"
 name = "_51_path_max_sum"
 path = "chapter08/_51_path_max_sum.rs"
 
+[[bin]]
+name = "_52_increasing_bst"
+path = "chapter08/_52_increasing_bst.rs"
+
 [dependencies]
