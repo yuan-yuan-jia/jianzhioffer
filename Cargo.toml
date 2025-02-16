@@ -137,4 +137,7 @@ path = "chapter08/_54_convert_bst.rs"
 name = "_55_bst_iterator"
 path = "chapter08/_55_bst_iterator.rs"
 
+[[bin]]
+name = "_56_tow_sum"
+path = "chapter08/_56_tow_sum.rs"
 [dependencies]
