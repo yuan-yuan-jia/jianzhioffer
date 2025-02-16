@@ -132,4 +132,9 @@ path = "chapter08/_53_inorder_successor.rs"
 [[bin]]
 name = "_54_convert_bst"
 path = "chapter08/_54_convert_bst.rs"
+
+[[bin]]
+name = "_55_bst_iterator"
+path = "chapter08/_55_bst_iterator.rs"
+
 [dependencies]
