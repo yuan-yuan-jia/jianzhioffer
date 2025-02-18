@@ -140,4 +140,8 @@ path = "chapter08/_55_bst_iterator.rs"
 [[bin]]
 name = "_56_tow_sum"
 path = "chapter08/_56_tow_sum.rs"
+
+[[bin]]
+name = "_59_kth_largest"
+path = "chapter09/_59_kth_largest.rs"
 [dependencies]
