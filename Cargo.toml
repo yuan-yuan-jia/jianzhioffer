@@ -147,4 +147,7 @@ path = "chapter09/_59_kth_largest.rs"
 [[bin]]
 name = "_60_topk_frequent"
 path = "chapter09/_60_topk_frequent.rs"
+[[bin]]
+name = "_61_ksmallest_pairs"
+path = "chapter09/_61_ksmallest_pairs.rs"
 [dependencies]
