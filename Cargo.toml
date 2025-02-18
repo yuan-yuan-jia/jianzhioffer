@@ -144,4 +144,7 @@ path = "chapter08/_56_tow_sum.rs"
 [[bin]]
 name = "_59_kth_largest"
 path = "chapter09/_59_kth_largest.rs"
+[[bin]]
+name = "_60_topk_frequent"
+path = "chapter09/_60_topk_frequent.rs"
 [dependencies]
