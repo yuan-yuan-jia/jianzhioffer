@@ -153,4 +153,8 @@ path = "chapter09/_61_ksmallest_pairs.rs"
 [[bin]]
 name = "_62_trie"
 path = "chapter09/_62_trie.rs"
+
+[[bin]]
+name = "_63_replace_words"
+path = "chapter10/_63_replace_words.rs"
 [dependencies]
