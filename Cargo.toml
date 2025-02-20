@@ -150,4 +150,7 @@ path = "chapter09/_60_topk_frequent.rs"
 [[bin]]
 name = "_61_ksmallest_pairs"
 path = "chapter09/_61_ksmallest_pairs.rs"
+[[bin]]
+name = "_62_trie"
+path = "chapter09/_62_trie.rs"
 [dependencies]
