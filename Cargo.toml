@@ -157,4 +157,7 @@ path = "chapter09/_62_trie.rs"
 [[bin]]
 name = "_63_replace_words"
 path = "chapter10/_63_replace_words.rs"
+[[bin]]
+name = "_64_magic_dictionary"
+path = "chapter10/_64_magic_dictionary.rs"
 [dependencies]
