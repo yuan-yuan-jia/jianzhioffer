@@ -160,4 +160,7 @@ path = "chapter10/_63_replace_words.rs"
 [[bin]]
 name = "_64_magic_dictionary"
 path = "chapter10/_64_magic_dictionary.rs"
+[[bin]]
+name = "_65_minimal_length_encoding"
+path = "chapter10/_65_minimal_length_encoding.rs"
 [dependencies]
