@@ -163,4 +163,7 @@ path = "chapter10/_64_magic_dictionary.rs"
 [[bin]]
 name = "_65_minimal_length_encoding"
 path = "chapter10/_65_minimal_length_encoding.rs"
+[[bin]]
+name = "_69_peak_index_in_moutain_array"
+path = "chapter11/_69_peak_index_in_moutain_array.rs"
 [dependencies]
